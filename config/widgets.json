@@ -1,0 +1,25 @@
+{
+  "_comment": "One entry per client location. `id` is what goes in the embed's data-widget-id. Add a client = add an object here + redeploy (or move this to KV later for no-redeploy edits). Find a Google place_id at https://developers.google.com/maps/documentation/places/web-service/place-id",
+
+  "widgets": [
+    {
+      "id": "alliance-carmel",
+      "name": "Alliance Jiu Jitsu Carmel Mountain",
+      "sources": {
+        "google": {
+          "place_id": "REPLACE_WITH_GOOGLE_PLACE_ID"
+        },
+        "facebook": {
+          "page_url": "https://www.facebook.com/REPLACE_WITH_PAGE"
+        }
+      },
+      "theme": {
+        "accent": "#1f6f5c",
+        "showHeader": true,
+        "eyebrow": "Reviews",
+        "title": "Hear from Our Community",
+        "subtitle": "Real stories from students and families who have experienced the Alliance difference."
+      }
+    }
+  ]
+}

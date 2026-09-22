@@ -1,0 +1,18 @@
+{
+  "name": "reviews-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted Google + Facebook reviews widget. Elfsight replacement.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "refresh": "node scripts/refresh-local.mjs"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
